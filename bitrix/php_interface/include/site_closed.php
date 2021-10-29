@@ -8,6 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-Сайт верменно закрыт...
+Сайт временно закрыт...
 </body>
 </html>
