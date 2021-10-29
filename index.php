@@ -30,8 +30,8 @@ $APPLICATION->SetTitle("Мебельная компания");
 </p>
 
 <?php
-$a = ['adfs', 333];
-dump($a);
+//$a = ['adfs', 333];
+//dump($a);
 ?>
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
