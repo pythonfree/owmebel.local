@@ -27,4 +27,11 @@ $APPLICATION->SetTitle("Мебельная компания");
 	),
 	false
 );?>
-</p><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+</p>
+
+<?php
+$a = ['adfs', 333];
+dump($a);
+?>
+
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

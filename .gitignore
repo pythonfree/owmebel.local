@@ -1,4 +1,5 @@
 .idea
-/bitrix
+bitrix/*
 /access.log
 /error.log
+!bitrix/php_interface
