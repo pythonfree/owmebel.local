@@ -1,7 +1,4 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
-<?
-IncludeTemplateLangFile(__FILE__);
-?>
 
 <div class="ft_footer">
     <div class="ft_container">
