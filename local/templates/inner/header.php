@@ -32,6 +32,7 @@ IncludeTemplateLangFile(__FILE__);
     ),
         false
     );?>
+
     <div class="main_container page">
         <div class="mn_container">
             <div class="mn_content">

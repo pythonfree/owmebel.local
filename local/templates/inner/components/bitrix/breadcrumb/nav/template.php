@@ -17,5 +17,5 @@ for($index = 0; $index < $itemSize; $index++)
 	}
 }
 
-$strReturn .= '</ul><div style="clearboth"></div></div>';
+$strReturn .= '</ul><div class="clearboth"></div></div>';
 return $strReturn;
