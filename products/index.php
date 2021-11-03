@@ -28,7 +28,7 @@ $APPLICATION->SetTitle("Продукция");
 		"SECTION_SHOW_PARENT_NAME" => "N",
 		"SET_TITLE" => "Y",
 		"SET_STATUS_404" => "Y",
-		"USE_FILTER" => "N",
+		"USE_FILTER" => "Y",
 		"USE_COMPARE" => "N",
 		"PRICE_CODE" => array(
 		),
@@ -185,6 +185,28 @@ $APPLICATION->SetTitle("Продукция");
 		"USE_ELEMENT_COUNTER" => "Y",
 		"DISABLE_INIT_JS_IN_COMPONENT" => "N",
 		"DETAIL_SET_VIEWED_IN_COMPONENT" => "N",
+		"DETAIL_MAIN_BLOCK_PROPERTY_CODE" => array(
+			0 => "SIZE",
+			1 => "S_SIZE",
+			2 => "AGE",
+			3 => "Collection",
+			4 => "ARTNUMBER",
+			5 => "MATERIAL",
+			6 => "MANUFACTURER",
+		),
+		"FILTER_NAME" => "",
+		"FILTER_FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"FILTER_PROPERTY_CODE" => array(
+			0 => "PRICE",
+			1 => "AGE",
+			2 => "Collection",
+			3 => "",
+		),
+		"FILTER_PRICE_CODE" => array(
+		),
 		"SEF_URL_TEMPLATES" => array(
 			"sections" => "",
 			"section" => "#SECTION_ID#/",
