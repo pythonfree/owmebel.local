@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("color_left_menu", "blue");
 $APPLICATION->SetTitle("Продукция");
 ?>
 <?php //$APPLICATION->SetPageProperty("NOT_SHOW_NAV_CHAIN", "Y"); ?>

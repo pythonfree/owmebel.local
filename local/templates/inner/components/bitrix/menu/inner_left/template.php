@@ -1,6 +1,9 @@
 <?if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
 
 <div class="sb_nav">
+
+    <p style="color: <?$APPLICATION->ShowProperty('color_left_menu');?>">Навигация</p>
+
 <?if (!empty($arResult)):?>
 <ul>
 
