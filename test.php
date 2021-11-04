@@ -3,6 +3,6 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("test");
 ?>
 
-<?= getUserId(); ?>
+<?= SITE_TEMPLATE_PATH ?>
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
