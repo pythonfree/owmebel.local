@@ -30,14 +30,14 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"Акции", 
-		"/", 
+		"stocks/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Партнерам", 
-		"/", 
+		"associates/", 
 		Array(), 
 		Array(), 
 		"" 

@@ -38,6 +38,6 @@ IncludeTemplateLangFile(__FILE__);
             <div class="mn_content">
                 <div class="main_post">
                     <div class="main_title">
-                        <p class="title">Заголовок страницы</p>
+                        <p class="title"><?$APPLICATION->ShowTitle(false)?></p>
                     </div>
                     <!-- workarea -->
