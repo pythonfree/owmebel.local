@@ -1,4 +1,5 @@
 <?
+$PERM["test.php"]["*"]="D";
 $PERM["company"]["G6"]="W";
 $PERM["company"]["G7"]="W";
 $PERM["search"]["6"]="W";

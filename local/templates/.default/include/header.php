@@ -41,14 +41,18 @@
             <tr>
                 <td style="padding-top: 11px;">
 
-                    <?$APPLICATION->IncludeComponent("bitrix:system.auth.form", "auth", Array(
-                        "FORGOT_PASSWORD_URL" => "/user/",	// Страница забытого пароля
-                        "PROFILE_URL" => "/user/profile.php",	// Страница профиля
-                        "REGISTER_URL" => "/user/registration.php",	// Страница регистрации
-                        "SHOW_ERRORS" => "N",	// Показывать ошибки
-                    ),
-                        false
-                    );?>
+                    <?$APPLICATION->IncludeComponent(
+	"bitrix:system.auth.form", 
+	"auth", 
+	array(
+		"FORGOT_PASSWORD_URL" => "/user/",
+		"PROFILE_URL" => "/user/profile.php",
+		"REGISTER_URL" => "/user/registration.php",
+		"SHOW_ERRORS" => "Y",
+		"COMPONENT_TEMPLATE" => "auth"
+	),
+	false
+);?>
 
                 </td>
             </tr>

@@ -1,0 +1,34 @@
+Host: owmebel.local
+Date: 2021-11-05 10:57:11
+Module: 
+Array
+(
+    [MESSAGE] => Неверный логин или пароль.<br>
+    [TYPE] => ERROR
+    [ERROR_TYPE] => LOGIN
+)
+
+    include < CBitrixComponentTemplate::__IncludePHPTemplate < CBitrixComponentTemplate::IncludeTemplate < CBitrixComponent::showComponentTemplate < CBitrixComponent::includeComponentTemplate
+	/home/pseex/www/owmebel.local/bitrix/modules/main/classes/general/component_template.php:790
+	/home/pseex/www/owmebel.local/bitrix/modules/main/classes/general/component_template.php:885
+	/home/pseex/www/owmebel.local/bitrix/modules/main/classes/general/component.php:775
+	/home/pseex/www/owmebel.local/bitrix/modules/main/classes/general/component.php:716
+	/home/pseex/www/owmebel.local/bitrix/components/bitrix/system.auth.form/component.php:213
+----------
+Host: owmebel.local
+Date: 2021-11-05 10:58:08
+Module: 
+Array
+(
+    [MESSAGE] => Неверный логин или пароль.<br>
+    [TYPE] => ERROR
+    [ERROR_TYPE] => LOGIN
+)
+
+    include < CBitrixComponentTemplate::__IncludePHPTemplate < CBitrixComponentTemplate::IncludeTemplate < CBitrixComponent::showComponentTemplate < CBitrixComponent::includeComponentTemplate
+	/home/pseex/www/owmebel.local/bitrix/modules/main/classes/general/component_template.php:790
+	/home/pseex/www/owmebel.local/bitrix/modules/main/classes/general/component_template.php:885
+	/home/pseex/www/owmebel.local/bitrix/modules/main/classes/general/component.php:775
+	/home/pseex/www/owmebel.local/bitrix/modules/main/classes/general/component.php:716
+	/home/pseex/www/owmebel.local/bitrix/components/bitrix/system.auth.form/component.php:213
+----------

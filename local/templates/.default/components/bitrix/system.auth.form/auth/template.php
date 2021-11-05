@@ -1,5 +1,15 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
 
+<?
+//dump($arResult['ERROR_MESSAGE']['TYPE'], false, true);
+
+
+if ($arResult['SHOW_ERRORS'] == 'Y' && $arResult['ERROR'] && ($arResult['ERROR_MESSAGE']['TYPE'] === 'ERROR')) {
+    ShowMessage($arResult['ERROR_MESSAGE']);
+    AddMessage2Log(print_r($arResult['ERROR_MESSAGE'], true));
+}
+?>
+
 <?if($arResult["FORM_TYPE"] == "login"):?>
 
 <span class="hd_singin"><a id="hd_singin_but_open" href="">Войти на сайт</a>
