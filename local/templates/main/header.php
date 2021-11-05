@@ -8,8 +8,6 @@ IncludeTemplateLangFile(__FILE__);
 
     <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/local/templates/.default/include/head.php'; ?>
 
-    <link rel="shortcut icon" type="image/x-icon" href="/local/templates/.default/favicon.ico">
-    <!--[if gte IE 9]><style type="text/css">.gradient {filter: none;}</style><![endif]-->
     <title><?$APPLICATION->ShowTitle()?></title>
 </head>
 <body>

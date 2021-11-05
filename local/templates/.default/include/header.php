@@ -3,7 +3,7 @@
         <table>
             <tr>
                 <td rowspan="2" class="hd_companyname">
-                    <h1><?$APPLICATION->IncludeComponent(
+                    <h1><a href="/"><?$APPLICATION->IncludeComponent(
                             "bitrix:main.include",
                             "",
                             Array(
@@ -12,7 +12,7 @@
                                 "EDIT_TEMPLATE" => "",
                                 "PATH" => "/include/logo.php"
                             )
-                        );?></h1>
+                        );?></a></h1>
                 </td>
                 <td rowspan="2" class="hd_txarea">
                         <span class="tel"><?$APPLICATION->IncludeComponent(

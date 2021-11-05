@@ -16,3 +16,6 @@ $assets->addJs(SITE_TEMPLATE_PATH . '/../.default/js/jquery-1.8.2.min.js');
 $assets->addJs(SITE_TEMPLATE_PATH . '/../.default/js/slides.min.jquery.js');
 $assets->addJs(SITE_TEMPLATE_PATH . '/../.default/js/jquery.carouFredSel-6.1.0-packed.js');
 $assets->addJs(SITE_TEMPLATE_PATH . '/../.default/js/functions.js');
+?>
+<link rel="shortcut icon" type="image/x-icon" href="<?= SITE_TEMPLATE_PATH ?>/../.default/favicon.ico">
+<!--[if gte IE 9]><style type="text/css">.gradient {filter: none;}</style><![endif]-->

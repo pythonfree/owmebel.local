@@ -12,9 +12,9 @@ IncludeTemplateLangFile(__FILE__);
 	"inner_left", 
 	array(
 		"ALLOW_MULTI_SELECT" => "N",
-		"CHILD_MENU_TYPE" => "left",
+		"CHILD_MENU_TYPE" => "left_additional",
 		"DELAY" => "N",
-		"MAX_LEVEL" => "1",
+		"MAX_LEVEL" => "2",
 		"MENU_CACHE_GET_VARS" => array(
 		),
 		"MENU_CACHE_TIME" => "3600",
@@ -27,17 +27,6 @@ IncludeTemplateLangFile(__FILE__);
 	false
 );?>
 
-    <div class="sb_event">
-        <div class="sb_event_header"><h4>Ближайшие события</h4></div>
-        <p><a href="">29 августа 2012, Москва</a></p>
-        <p>Семинар производителей мебели России и СНГ, Обсуждение тенденций.</p>
-    </div>
-    <div class="sb_action">
-        <a href=""><img src="/local/templates/.default/content/11.png" alt=""/></a>
-        <h4>Акция</h4>
-        <h5><a href="">Мебельная полка всего за 560 Р</a></h5>
-        <a href="" class="sb_action_more">Подробнее &rarr;</a>
-    </div>
     <?$APPLICATION->IncludeComponent(
         "bitrix:main.include",
         "",
@@ -48,6 +37,14 @@ IncludeTemplateLangFile(__FILE__);
             "EDIT_TEMPLATE" => ""
         )
     );?>
+
+    <div class="sb_action">
+        <a href=""><img src="/local/templates/.default/content/11.png" alt=""/></a>
+        <h4>Акция</h4>
+        <h5><a href="">Мебельная полка всего за 560 Р</a></h5>
+        <a href="" class="sb_action_more">Подробнее &rarr;</a>
+    </div>
+
     <div class="sb_reviewed">
         <img src="/local/templates/.default/content/8.png" class="sb_rw_avatar" alt=""/>
         <span class="sb_rw_name">Сергей Антонов</span>
