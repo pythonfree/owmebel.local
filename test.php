@@ -1,7 +1,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("test");
-?><?$APPLICATION->IncludeComponent("bitrix:news.list", "review_main", Array(
+?><?$APPLICATION->IncludeComponent("bitrix:news.list", "stock", Array(
 	"ACTIVE_DATE_FORMAT" => "d.m.Y",	// Формат показа даты
 		"ADD_SECTIONS_CHAIN" => "N",	// Включать раздел в цепочку навигации
 		"AJAX_MODE" => "N",	// Включить режим AJAX
@@ -16,7 +16,7 @@ $APPLICATION->SetTitle("test");
 		"CHECK_DATES" => "Y",	// Показывать только активные на данный момент элементы
 		"DETAIL_URL" => "",	// URL страницы детального просмотра (по умолчанию - из настроек инфоблока)
 		"DISPLAY_BOTTOM_PAGER" => "N",	// Выводить под списком
-		"DISPLAY_DATE" => "N",	// Выводить дату элемента
+		"DISPLAY_DATE" => "Y",	// Выводить дату элемента
 		"DISPLAY_NAME" => "Y",	// Выводить название элемента
 		"DISPLAY_PICTURE" => "Y",	// Выводить изображение для анонса
 		"DISPLAY_PREVIEW_TEXT" => "Y",	// Выводить текст анонса
@@ -28,12 +28,12 @@ $APPLICATION->SetTitle("test");
 		),
 		"FILTER_NAME" => "",	// Фильтр
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",	// Скрывать ссылку, если нет детального описания
-		"IBLOCK_ID" => "6",	// Код информационного блока
-		"IBLOCK_TYPE" => "reviews",	// Тип информационного блока (используется только для проверки)
+		"IBLOCK_ID" => "7",	// Код информационного блока
+		"IBLOCK_TYPE" => "stocks",	// Тип информационного блока (используется только для проверки)
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",	// Включать инфоблок в цепочку навигации
-		"INCLUDE_SUBSECTIONS" => "N",	// Показывать элементы подразделов раздела
+		"INCLUDE_SUBSECTIONS" => "Y",	// Показывать элементы подразделов раздела
 		"MESSAGE_404" => "",	// Сообщение для показа (по умолчанию из компонента)
-		"NEWS_COUNT" => "4",	// Количество новостей на странице
+		"NEWS_COUNT" => "1",	// Количество новостей на странице
 		"PAGER_BASE_LINK_ENABLE" => "N",	// Включить обработку ссылок
 		"PAGER_DESC_NUMBERING" => "N",	// Использовать обратную навигацию
 		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",	// Время кеширования страниц для обратной навигации
@@ -45,10 +45,8 @@ $APPLICATION->SetTitle("test");
 		"PARENT_SECTION_CODE" => "",	// Код раздела
 		"PREVIEW_TRUNCATE_LEN" => "",	// Максимальная длина анонса для вывода (только для типа текст)
 		"PROPERTY_CODE" => array(	// Свойства
-			0 => "AUTHOR",
-			1 => "JOB",
-			2 => "COMPANY",
-			3 => "",
+			0 => "PRICE",
+			1 => "",
 		),
 		"SET_BROWSER_TITLE" => "N",	// Устанавливать заголовок окна браузера
 		"SET_LAST_MODIFIED" => "N",	// Устанавливать в заголовках ответа время модификации страницы
