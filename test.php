@@ -1,7 +1,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("test");
-?><?$APPLICATION->IncludeComponent("bitrix:news.list", "stock", Array(
+?><?$APPLICATION->IncludeComponent("bitrix:news.list", "rand_review", Array(
 	"ACTIVE_DATE_FORMAT" => "d.m.Y",	// Формат показа даты
 		"ADD_SECTIONS_CHAIN" => "N",	// Включать раздел в цепочку навигации
 		"AJAX_MODE" => "N",	// Включить режим AJAX
@@ -22,14 +22,13 @@ $APPLICATION->SetTitle("test");
 		"DISPLAY_PREVIEW_TEXT" => "Y",	// Выводить текст анонса
 		"DISPLAY_TOP_PAGER" => "N",	// Выводить над списком
 		"FIELD_CODE" => array(	// Поля
-			0 => "PREVIEW_TEXT",
-			1 => "PREVIEW_PICTURE",
-			2 => "",
+			0 => "",
+			1 => "",
 		),
 		"FILTER_NAME" => "",	// Фильтр
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",	// Скрывать ссылку, если нет детального описания
-		"IBLOCK_ID" => "7",	// Код информационного блока
-		"IBLOCK_TYPE" => "stocks",	// Тип информационного блока (используется только для проверки)
+		"IBLOCK_ID" => "6",	// Код информационного блока
+		"IBLOCK_TYPE" => "reviews",	// Тип информационного блока (используется только для проверки)
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",	// Включать инфоблок в цепочку навигации
 		"INCLUDE_SUBSECTIONS" => "Y",	// Показывать элементы подразделов раздела
 		"MESSAGE_404" => "",	// Сообщение для показа (по умолчанию из компонента)
@@ -45,8 +44,10 @@ $APPLICATION->SetTitle("test");
 		"PARENT_SECTION_CODE" => "",	// Код раздела
 		"PREVIEW_TRUNCATE_LEN" => "",	// Максимальная длина анонса для вывода (только для типа текст)
 		"PROPERTY_CODE" => array(	// Свойства
-			0 => "PRICE",
-			1 => "",
+			0 => "AUTHOR",
+			1 => "JOB",
+			2 => "COMPANY",
+			3 => "",
 		),
 		"SET_BROWSER_TITLE" => "N",	// Устанавливать заголовок окна браузера
 		"SET_LAST_MODIFIED" => "N",	// Устанавливать в заголовках ответа время модификации страницы
@@ -55,11 +56,12 @@ $APPLICATION->SetTitle("test");
 		"SET_STATUS_404" => "N",	// Устанавливать статус 404
 		"SET_TITLE" => "N",	// Устанавливать заголовок страницы
 		"SHOW_404" => "N",	// Показ специальной страницы
-		"SORT_BY1" => "ACTIVE_FROM",	// Поле для первой сортировки новостей
-		"SORT_BY2" => "SORT",	// Поле для второй сортировки новостей
-		"SORT_ORDER1" => "DESC",	// Направление для первой сортировки новостей
-		"SORT_ORDER2" => "ASC",	// Направление для второй сортировки новостей
+		"SORT_BY1" => "rand",	// Поле для первой сортировки новостей
+		"SORT_BY2" => "",	// Поле для второй сортировки новостей
+		"SORT_ORDER1" => "",	// Направление для первой сортировки новостей
+		"SORT_ORDER2" => "",	// Направление для второй сортировки новостей
 		"STRICT_SECTION_CHECK" => "N",	// Строгая проверка раздела для показа списка
+		"COMPONENT_TEMPLATE" => ".default"
 	),
 	false
 );?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
