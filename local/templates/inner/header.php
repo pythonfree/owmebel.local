@@ -31,7 +31,7 @@ IncludeTemplateLangFile(__FILE__);
                     <div class="main_title">
                         <p class="title">
                             <?$APPLICATION->ShowTitle(false)?>
-<!--                            --><?//$APPLICATION->ShowViewContent('vote');?>
+                            <?$APPLICATION->ShowViewContent('vote');?>
                         </p>
                     </div>
                     <!-- workarea -->

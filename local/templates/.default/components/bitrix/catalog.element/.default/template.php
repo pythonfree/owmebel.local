@@ -184,7 +184,7 @@ if (!empty($arParams['LABEL_PROP_POSITION']))
 			<div class="row">
 				<div class="col-xs-12">
 					<h1 class="bx-title"><?=$name?></h1>
-                    <?$APPLICATION->ShowViewContent('vote');?>
+<!--                    --><?//$APPLICATION->ShowViewContent('vote');?>
 				</div>
 			</div>
 			<?php

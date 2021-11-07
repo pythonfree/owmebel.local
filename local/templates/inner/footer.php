@@ -54,7 +54,7 @@ IncludeTemplateLangFile(__FILE__);
 		"CACHE_TIME" => "86400",
 		"CACHE_TYPE" => "A",
 		"CHECK_DATES" => "Y",
-		"DETAIL_URL" => "#SITE_DIR#/stocks/?ELEMENT_ID=#ID#",
+		"DETAIL_URL" => "",
 		"DISPLAY_BOTTOM_PAGER" => "N",
 		"DISPLAY_DATE" => "Y",
 		"DISPLAY_NAME" => "Y",

@@ -38,7 +38,7 @@ $APPLICATION->SetTitle("Продукция");
 		"PRICE_VAT_INCLUDE" => "N",
 		"PRICE_VAT_SHOW_VALUE" => "N",
 		"SHOW_TOP_ELEMENTS" => "N",
-		"PAGE_ELEMENT_COUNT" => "10",
+		"PAGE_ELEMENT_COUNT" => "5",
 		"LINE_ELEMENT_COUNT" => "1",
 		"ELEMENT_SORT_FIELD" => "sort",
 		"ELEMENT_SORT_ORDER" => "desc",
@@ -68,7 +68,7 @@ $APPLICATION->SetTitle("Продукция");
 		"LINK_ELEMENTS_URL" => "link.php?PARENT_ELEMENT_ID=#ELEMENT_ID#",
 		"DISPLAY_TOP_PAGER" => "N",
 		"DISPLAY_BOTTOM_PAGER" => "Y",
-		"PAGER_TITLE" => "Продукция",
+		"PAGER_TITLE" => "Каталог",
 		"PAGER_SHOW_ALWAYS" => "N",
 		"PAGER_TEMPLATE" => "arrows",
 		"PAGER_DESC_NUMBERING" => "N",
@@ -211,8 +211,8 @@ $APPLICATION->SetTitle("Продукция");
 		"DETAIL_VOTE_DISPLAY_AS_RATING" => "rating",
 		"SEF_URL_TEMPLATES" => array(
 			"sections" => "",
-			"section" => "#SECTION_ID#/",
-			"element" => "#SECTION_ID#/#ELEMENT_ID#/",
+			"section" => "#SECTION_CODE#/",
+			"element" => "#SECTION_CODE#/#ELEMENT_CODE#/",
 			"compare" => "",
 			"smart_filter" => "#SECTION_ID#/filter/#SMART_FILTER_PATH#/apply/",
 		)
