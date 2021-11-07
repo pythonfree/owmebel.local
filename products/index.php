@@ -150,7 +150,7 @@ $APPLICATION->SetTitle("Продукция");
 		"DETAIL_BACKGROUND_IMAGE" => "-",
 		"SHOW_DEACTIVATED" => "N",
 		"SHOW_SKU_DESCRIPTION" => "N",
-		"DETAIL_USE_VOTE_RATING" => "N",
+		"DETAIL_USE_VOTE_RATING" => "Y",
 		"DETAIL_USE_COMMENTS" => "N",
 		"DETAIL_BRAND_USE" => "N",
 		"DETAIL_DISPLAY_NAME" => "Y",
@@ -208,6 +208,7 @@ $APPLICATION->SetTitle("Продукция");
 		),
 		"FILTER_PRICE_CODE" => array(
 		),
+		"DETAIL_VOTE_DISPLAY_AS_RATING" => "rating",
 		"SEF_URL_TEMPLATES" => array(
 			"sections" => "",
 			"section" => "#SECTION_ID#/",

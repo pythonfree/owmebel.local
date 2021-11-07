@@ -1,6 +1,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Новости");
+//TODO На детальном просмотре новости заголовок страницы, выводимый в шаблоне внутренних страниц в теге h1, устанавливать из названия элемента.
 ?>
 
 <?$APPLICATION->IncludeComponent(
@@ -9,7 +10,7 @@ $APPLICATION->SetTitle("Новости");
 	array(
 		"IBLOCK_TYPE" => "news",
 		"IBLOCK_ID" => "1",
-		"NEWS_COUNT" => "1",
+		"NEWS_COUNT" => "2",
 		"USE_SEARCH" => "N",
 		"USE_RSS" => "Y",
 		"NUM_NEWS" => "20",

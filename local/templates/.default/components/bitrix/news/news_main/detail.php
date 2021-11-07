@@ -33,6 +33,7 @@ $this->setFrameMode(true);
 		"DISPLAY_PANEL" => $arParams["DISPLAY_PANEL"],
 		"SET_LAST_MODIFIED" => $arParams["SET_LAST_MODIFIED"],
 		"SET_TITLE" => $arParams["SET_TITLE"],
+//		"SET_TITLE" => "Y",
 		"MESSAGE_404" => $arParams["MESSAGE_404"],
 		"SET_STATUS_404" => $arParams["SET_STATUS_404"],
 		"SHOW_404" => $arParams["SHOW_404"],

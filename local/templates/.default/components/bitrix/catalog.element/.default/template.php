@@ -184,6 +184,7 @@ if (!empty($arParams['LABEL_PROP_POSITION']))
 			<div class="row">
 				<div class="col-xs-12">
 					<h1 class="bx-title"><?=$name?></h1>
+                    <?$APPLICATION->ShowViewContent('vote');?>
 				</div>
 			</div>
 			<?php
@@ -455,6 +456,7 @@ if (!empty($arParams['LABEL_PROP_POSITION']))
 										if ($arParams['USE_VOTE_RATING'] === 'Y')
 										{
 											?>
+                                            <?php $this->SetViewTarget('vote'); ?>
 											<div class="product-item-detail-info-container">
 												<?php
 												$APPLICATION->IncludeComponent(
@@ -478,6 +480,7 @@ if (!empty($arParams['LABEL_PROP_POSITION']))
 												);
 												?>
 											</div>
+                                            <?php $this->EndViewTarget(); ?>
 											<?php
 										}
 
