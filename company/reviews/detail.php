@@ -55,7 +55,7 @@ $APPLICATION->SetTitle("Отзыв");
 		"SET_META_DESCRIPTION" => "N",
 		"SET_META_KEYWORDS" => "N",
 		"SET_STATUS_404" => "N",
-		"SET_TITLE" => "N",
+		"SET_TITLE" => "Y",
 		"SHOW_404" => "N",
 		"STRICT_SECTION_CHECK" => "N",
 		"USE_PERMISSIONS" => "N",
